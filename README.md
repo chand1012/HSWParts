@@ -28,7 +28,7 @@ Here are some images of the default mount:
 
 ![Parametric Hook](images/parametric_hook.png)
 
-This is an adjustable hook that can be modified by adjusting the variables on lines 6-10.
+This is an adjustable hook that can be modified by adjusting the variables on lines 6-11.
 
 ```c
 // all in mm
@@ -38,14 +38,13 @@ top_height = 5;
 item_thickness = 19;
 hex_chamfers = 1;
 inner_chamfers = 0;
+hook_depth = 11;
 ```
 
-This will create a hook that will mount the item with the specified thickness as close to the wall as possible. The `top_height` parameter adjusts the thickness of the end of the hook. The `hex_chamfers` adjust the chamfers at the ends of the hook, the `inner_chamfers` adjust the chamfers inside the hook. The `hook_type` parameter adjusts the orientation of the hook. The `item_thickness` parameter adjusts the thickness of the item that the hook will hold.
+This will create a hook that will mount the item with the specified thickness as close to the wall as possible. The `top_height` parameter adjusts the thickness of the end of the hook. The `hex_chamfers` adjust the chamfers at the ends of the hook, the `inner_chamfers` adjust the chamfers inside the hook. The `hook_type` parameter adjusts the orientation of the hook. The `item_thickness` parameter adjusts the thickness of the item that the hook will hold. The `hook_depth` parameter adjusts the depth of the hook.
 
 ### Samsung Wall Wart Holder
 
 ![Wall wart holder](images/wallwart_holder.png)
 
 This is a holder for the Samsung wall wart that comes with the Galaxy S22. That's it.
-
-
